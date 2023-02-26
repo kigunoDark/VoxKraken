@@ -1,0 +1,22 @@
+{
+    "name": "VoxKraken",
+    "description": "VoxKraken is the ultimate voice assistant for those who demand power and intelligence. With ChatGPT at its core, it can understand your needs and provide you with quick and accurate responses.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "voice_assistant.js"
+            ],
+            "css": [
+                "voice_assistant.styles.css"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": "./public/images/vox-kraken-logo.png"
+    }
+}

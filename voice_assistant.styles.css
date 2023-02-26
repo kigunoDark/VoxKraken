@@ -1,0 +1,67 @@
+.kraken-assistant-input {
+    width: 300px;
+    background: #40414F;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 12px 12px 12px;
+    font-size: 14px;
+    margin: 20px 0px;
+    height: fit-content;
+    resize: none;
+    overflow: hidden;
+    height: 50px;
+    max-height: 1000px;
+    margin-right: 10px;
+}
+
+#user-key {
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+}
+
+.kraken-menu-wrapper {
+    padding: 6px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.kraken-assistant-output {
+    width: 300px;
+    background: #40414F;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 12px 12px 12px;
+    font-size: 14px;
+    margin: 20px 0px;
+    min-height: 50px;
+    height: auto;;
+    max-height: 1000px;
+}
+
+.kraken-app {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start
+}
+
+
+
+.kraken-header {
+    width: 660px;
+    height: 200px;
+    border-radius: 6px;
+    background-image: url("https://i.ibb.co/b2m1hN7/Fox-Buka-cute-Kraken-girl-assitant-with-yellow-and-black-colors-62cbd10d-97ff-4078-b701-77b78a306e39.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
